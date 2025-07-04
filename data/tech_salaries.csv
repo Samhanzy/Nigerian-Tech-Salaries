@@ -1,0 +1,16 @@
+id,company,job,salary,years_experience,remote_ratio,employment_type,location
+1,Google,Data Scientist,160000,5,100,Full-time,USA
+2,Amazon,Data Analyst,90000,2,80,Full-time,USA
+3,Facebook,ML Engineer,190000,6,100,Full-time,USA
+4,Microsoft,Data Engineer,120000,3,60,Full-time,USA
+5,Netflix,Data Scientist,210000,7,100,Full-time,USA
+6,Uber,Data Analyst,95000,2,90,Full-time,USA
+7,Airbnb,ML Engineer,180000,5,100,Full-time,USA
+8,Spotify,Data Engineer,115000,3,70,Full-time,USA
+9,Twitter,Data Scientist,170000,6,100,Full-time,USA
+10,Apple,ML Engineer,200000,7,100,Full-time,USA
+11,Stripe,Data Analyst,100000,3,80,Full-time,USA
+12,LinkedIn,Data Engineer,130000,4,90,Full-time,USA
+13,Snapchat,Data Scientist,165000,5,100,Full-time,USA
+14,Salesforce,ML Engineer,175000,6,100,Full-time,USA
+15,Adobe,Data Analyst,95000,2,85,Full-time,USA
