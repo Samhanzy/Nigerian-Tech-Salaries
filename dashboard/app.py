@@ -2,19 +2,15 @@ import streamlit as st
 import pandas as pd
 import psycopg2
 import plotly.express as px
+import os
 
 st.set_page_config(page_title="🇳🇬 Nigerian Tech Salaries", layout="wide")
 st.title("📊 Nigerian Tech Salaries Dashboard")
 
 @st.cache_data
 def load_data():
-    conn = psycopg2.connect(
-        host="localhost",
-        database="tech_salaries_db",
-        user="postgres",
-        password="Samhanzy2002",
-        port=5432
-    )
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    conn = psycopg2.connect(DATABASE_URL)
     df = pd.read_sql("SELECT * FROM tech_salaries", conn)
     conn.close()
     return df
