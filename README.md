@@ -44,10 +44,44 @@ nigerian-tech-salaries/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+## 📊 Dashboard Preview
+
+![Full Dashboard](dashboard/images/full_dashboard.png)
+
+### Salary by Job Title
+![Salary by Job Title](dashboard/images/salary_by_title.png)
+
+### Salary vs. Experience
+![Salary vs Experience](dashboard/images/salary_vs_experience.png)
+
+
 
 yaml
 Copy
 Edit
+## 📁 Dataset Metadata
+
+- **Filename**: `nigerian_tech_salaries.csv`
+- **Size**: _[15]_ rows × _[7]_ columns
+- **Date Collected**: _[e.g., July 2025]_
+
+### 📐 Columns
+| Column             | Description                          |
+|--------------------|--------------------------------------|
+| job_title          | Tech role (e.g., Software Engineer)  |
+| experience_level   | Entry, Mid, Senior, etc.             |
+| company            | Company name                         |
+| location           | City or remote                       |
+| remote_ratio       | Percentage of remote work            |
+| salary             | Monthly salary in NGN                |
+| currency           | Currency used (NGN, USD, etc.)       |
+
+### 🧹 Cleaning Steps
+- Removed rows with missing or zero salary values
+- Standardized column names and formatting
+- Converted experience levels to lowercase categories
+- Filtered outliers above 10M NGN/month
+
 
 ---
 
