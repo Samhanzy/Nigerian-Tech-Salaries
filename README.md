@@ -27,7 +27,7 @@ A fully interactive Streamlit dashboard analyzing Nigerian tech salaries, built 
 ![Salary by Job Title](dashboard/images/salary_by_title.png)
 
 ### Salary vs Experience
-![Salary vs Experience](dashboard/images/salary_vs_experience.png)
+![Salary vs Experience](dashboard/images/salary_versus_experience.png)
 
 
 ---
