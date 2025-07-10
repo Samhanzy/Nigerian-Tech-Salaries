@@ -1,71 +1,46 @@
 # 🇳🇬 Nigerian Tech Salaries Dashboard
 
-An interactive data dashboard that visualizes salary trends in Nigeria’s tech industry, built with **PostgreSQL**, **Python**, and **Streamlit**. This project combines data engineering, backend SQL, and a modern frontend dashboard to provide insights into job roles, pay, experience, remote work, and more.
+[![Streamlit App](https://img.shields.io/badge/View%20Live-Dashboard-00c853?logo=streamlit&logoColor=white&style=for-the-badge)](https://nigerian-tech-salaries.onrender.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Connected-336791?logo=postgresql&logoColor=white&style=for-the-badge)](https://render.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-🔗 **Live Demo**: [nigerian-tech-salaries.onrender.com](https://nigerian-tech-salaries.onrender.com/)
-
----
-
-## 📊 Features
-
-- View average salary by job title
-- Explore salary distribution by experience
-- Compare remote vs. on-site job trends
-- Visualize salary vs. experience scatterplot
-- Clean, fast-loading interactive dashboard
+A fully interactive Streamlit dashboard analyzing Nigerian tech salaries, built with:
+- 📊 **Plotly** for rich interactive charts  
+- 🗄️ **PostgreSQL** for cloud-hosted database  
+- ☁️ **Render** for deployment  
+- 🐍 **Python** + **Pandas** for data wrangling
 
 ---
 
-## 🧱 Tech Stack
+## 🔗 Live Demo
 
-| Layer         | Tools / Frameworks                               |
-|--------------|---------------------------------------------------|
-| **Frontend**  | Streamlit, Plotly                                |
-| **Backend**   | PostgreSQL, Psycopg2                              |
-| **Data**      | CSV to PostgreSQL import, Pandas                 |
-| **Deployment**| Render (Free Hosting)                            |
-| **Language**  | Python                                            |
+👉 [Click here to view the live app](https://nigerian-tech-salaries.onrender.com)
 
 ---
 
-## 🗂️ Project Structure
-
-nigerian-tech-salaries/
-├── api/ # (Future use) REST API endpoints
-├── dashboard/ # Streamlit app files
-│ └── app.py
-├── data/ # Source dataset (CSV)
-│ └── tech_salaries.csv
-├── db/ # SQL scripts
-│ └── create_table.sql
-│ └── insert_data.sql
-├── notebooks/ # Optional Jupyter analysis
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
 ## 📊 Dashboard Preview
 
+### Full Dashboard
 ![Full Dashboard](dashboard/images/full_dashboard.png)
 
 ### Salary by Job Title
 ![Salary by Job Title](dashboard/images/salary_by_title.png)
 
-### Salary vs. Experience
+### Salary vs Experience
 ![Salary vs Experience](dashboard/images/salary_vs_experience.png)
 
 
+---
 
-yaml
-Copy
-Edit
 ## 📁 Dataset Metadata
 
 - **Filename**: `nigerian_tech_salaries.csv`
-- **Size**: _[15]_ rows × _[7]_ columns
-- **Date Collected**: _[e.g., July 2025]_
+- **Size**: 15 rows × 7 columns  
+- **Date Collected**: July 2025  
+- **Source**: Manually compiled and cleaned sample dataset for demonstration
 
 ### 📐 Columns
+
 | Column             | Description                          |
 |--------------------|--------------------------------------|
 | job_title          | Tech role (e.g., Software Engineer)  |
@@ -77,21 +52,21 @@ Edit
 | currency           | Currency used (NGN, USD, etc.)       |
 
 ### 🧹 Cleaning Steps
-- Removed rows with missing or zero salary values
-- Standardized column names and formatting
-- Converted experience levels to lowercase categories
-- Filtered outliers above 10M NGN/month
 
+- Removed rows with missing or zero salary values  
+- Standardized column names and formatting  
+- Converted experience levels to lowercase categories  
+- Filtered outliers above 10M NGN/month  
 
 ---
 
 ## 🛠️ Setup Instructions
 
-1. **Clone the Repo**
+1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/Samhanzy/nigerian-tech-salaries.git
-cd nigerian-tech-salaries
+git clone https://github.com/Samhanzy/Nigerian-Tech-Salaries.git
+cd Nigerian-Tech-Salaries
 Install Dependencies
 
 bash
@@ -110,31 +85,42 @@ bash
 Copy
 Edit
 streamlit run dashboard/app.py
-📌 Dataset
-The data used comes from a cleaned CSV file of tech salary records in Nigeria, including:
-
-Job Title
-
-Salary
-
-Experience
-
-Remote Ratio
-
-Employment Type
-
-Company
-
-Location
-
-📷 Screenshots
-Overview	Experience vs Salary
-
-(Replace these links with actual screenshots once uploaded to GitHub or Imgur)
-
+🗂️ Project Structure
+bash
+Copy
+Edit
+Nigerian-Tech-Salaries/
+│
+├── dashboard/
+│   ├── app.py                 # Streamlit dashboard
+│   └── images/                # Screenshot assets
+│
+├── data/
+│   ├── tech_salaries.csv      # Raw dataset
+│   └── upload_data.py         # Script to upload data
+│
+├── db/
+│   ├── create_table.sql       # SQL schema
+│   └── insert_data.sql        # Sample inserts
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 📄 License
 This project is licensed under the MIT License.
 
 🙌 Credits
 Made with 💻 by Samhanzy
 Deployed on Render
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ After Paste: Commit & Push
+```bash
+git add README.md
+git commit -m "Cleaned up README with visuals and dataset metadata"
+git push origin main
