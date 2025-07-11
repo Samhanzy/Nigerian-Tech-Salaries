@@ -112,15 +112,3 @@ This project is licensed under the MIT License.
 🙌 Credits
 Made with 💻 by Samhanzy
 Deployed on Render
-
-yaml
-Copy
-Edit
-
----
-
-### ✅ After Paste: Commit & Push
-```bash
-git add README.md
-git commit -m "Cleaned up README with visuals and dataset metadata"
-git push origin main
