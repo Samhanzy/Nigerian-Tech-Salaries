@@ -69,9 +69,6 @@ git clone https://github.com/Samhanzy/Nigerian-Tech-Salaries.git
 cd Nigerian-Tech-Salaries
 Install Dependencies
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Set Up PostgreSQL
 
@@ -81,14 +78,8 @@ Run the SQL scripts in db/ to create the table and insert the data.
 
 Run the Dashboard
 
-bash
-Copy
-Edit
 streamlit run dashboard/app.py
 🗂️ Project Structure
-bash
-Copy
-Edit
 Nigerian-Tech-Salaries/
 │
 ├── dashboard/
