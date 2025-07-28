@@ -21,13 +21,13 @@ A fully interactive Streamlit dashboard analyzing Nigerian tech salaries, built 
 ## 📊 Dashboard Preview
 
 ### Full Dashboard
-![Full Dashboard](dashboard/images/full_dashboard.png)
+![Full Dashboard](dashboard\images\full_dashboard.png)
 
 ### Salary by Job Title
-![Salary by Job Title](dashboard/images/salary_by_title.png)
+![Salary by Job Title](dashboard\images\salary_by_title.png)
 
 ### Salary vs Experience
-![Salary vs Experience](dashboard/images/salary_versus_experience.png)
+![Salary vs Experience](dashboard\images\salary_versus_experience.png)
 
 
 ---
